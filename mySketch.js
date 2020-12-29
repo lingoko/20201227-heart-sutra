@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 800);
 	//跟Function draw裡面的background一樣都可以影響鏤空字的顏色,但不是指定的顏色,
   colorMode(HSB,360,100,100,100);
   angleMode(DEGREES);
@@ -47,7 +47,7 @@ function draw() {
 }
 
 function windowResized(){
-  resizeCanvas(windowWidth, windowHeight)
+  resizeCanvas(800, 800)
 }
 
 function separateGrid(x, y, d) {
